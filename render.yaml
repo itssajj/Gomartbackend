@@ -1,0 +1,7 @@
+version: 1
+services:
+  - name: gomartnow
+    buildCommand: ./build.sh
+    rootDirectory: gomartnow/gomartnow
+    env:
+      PYTHON_VERSION: 3.7  # Specify your desired Python version
